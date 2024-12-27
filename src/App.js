@@ -3,12 +3,9 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import Alert from './components/Alert';
 import toast from 'react-hot-toast';
 import {
    BrowserRouter as Router,
-   Switch,
-   Link,
    Route,
    Routes
 } from "react-router-dom";
